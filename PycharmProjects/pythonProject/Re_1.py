@@ -23,3 +23,4 @@ obj = re.compile("\d+")
 ret = obj.finditer("我的电话好号是：10086,test = 101010101")
 for it in ret:
     print(it.group())
+print("check")
